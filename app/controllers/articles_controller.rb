@@ -36,6 +36,7 @@ class ArticlesController < ApplicationController
     else
       flash.now[:error] = "Your article couldn't be updated!"
       render :edit
+    end
   end
 
   def destroy
